@@ -11,33 +11,43 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_Asg2;
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
 
 /**
  * Servlet implementation class StudentCourse
  */
 @Controller
-@RequestMapping("/StudentCourse")
+@RequestMapping("/description")
 public class Controller_incredible_Asg2 {
 	@RequestMapping(method = RequestMethod.GET)
 	public String newProfile(ModelMap model) {
-		Modelincredible_Asg2 StudentCourse = new Modelincredible_Asg2();
-		model.addAttribute("StudentCourse", StudentCourse);
-		return "StudentCourse";
+		Modelincredible_vka_86 StudentCourse = new Modelincredible_vka_86();
+		model.addAttribute("varinder_des_vka_86", StudentCourse);
+		return "varinder_des_vka_86";
+
 	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
+	@RequestMapping(value = "/varinder",method = RequestMethod.GET)
+	public String newProfileVarinder(ModelMap model) {
+		Modelincredible_vka_86 varinder_des_86 = new Modelincredible_vka_86();
+		model.addAttribute("varinder_des_86", varinder_des_86);
+		return "varinder_des_86";
+	}
+	
 	@RequestMapping(method = RequestMethod.POST)
-	public String saveProfile(Modelincredible_Asg2 StudentCourse, BindingResult result, ModelMap model) {
+	public String saveProfile(Modelincredible_vka_86 StudentCourse, BindingResult result, ModelMap model) {
 		if (result.hasErrors()) {
-			return "StudentCourse";
+			return "varinder_des_vka_86";
 		}
-		model.addAttribute("success",
-				"Dear " + StudentCourse.getFirstName() + " , your profile completed successfully");
-		model.addAttribute("StudentCourse", StudentCourse);
-		return "Scholarship";
+		model.addAttribute("welcome ",
+				"in " + StudentCourse.getFirstName() + " , 's  profile ");
+		model.addAttribute("varinder_des_vka_86", StudentCourse);
+		return "varinder_des_vka_86";
 	}
 
+	
 }
