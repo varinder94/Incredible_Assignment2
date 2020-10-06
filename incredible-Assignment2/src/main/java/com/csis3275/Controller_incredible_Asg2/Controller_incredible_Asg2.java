@@ -1,43 +1,51 @@
 package com.csis3275.Controller_incredible_Asg2;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
+
+
+
+import java.awt.Image;
+import java.awt.PageAttributes.MediaType;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.imageio.ImageIO;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.csis3275.Model_Incredible_Asg2.Modelincredible_Asg2;
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84;
 
-/**
- * Servlet implementation class StudentCourse
- */
+
 @Controller
-@RequestMapping("/StudentCourse")
+@RequestMapping("/Profile")
 public class Controller_incredible_Asg2 {
 	@RequestMapping(method = RequestMethod.GET)
 	public String newProfile(ModelMap model) {
-		Modelincredible_Asg2 StudentCourse = new Modelincredible_Asg2();
-		model.addAttribute("StudentCourse", StudentCourse);
-		return "StudentCourse";
+		Modelincredible_gra_84 selfi_gra_84 = new Modelincredible_gra_84();
+		model.addAttribute("selfi_gra_84", selfi_gra_84);
+		return "selfi_gra_84";
 	}
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
-	 *      response)
-	 */
+	
 	@RequestMapping(method = RequestMethod.POST)
-	public String saveProfile(Modelincredible_Asg2 StudentCourse, BindingResult result, ModelMap model) {
+	public String saveProfile(Modelincredible_gra_84 selfi_gra_84, BindingResult result, ModelMap model) {
 		if (result.hasErrors()) {
-			return "StudentCourse";
+			return "selfi_gra_84";
 		}
-		model.addAttribute("success",
-				"Dear " + StudentCourse.getFirstName() + " , your profile completed successfully");
-		model.addAttribute("StudentCourse", StudentCourse);
-		return "Scholarship";
+		model.addAttribute("info_gra_84",
+				"Dear " + selfi_gra_84.getFirstName() + " , your profile completed successfully");
+		model.addAttribute("selfi_gra_84", selfi_gra_84);
+		return "info_gra_84";
 	}
+	
+
 
 }
