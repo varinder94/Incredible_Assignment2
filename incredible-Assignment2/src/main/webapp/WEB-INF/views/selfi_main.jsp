@@ -46,17 +46,17 @@ div {text-align: center;}
   <img src="<spring:url value="/image/selfie_gra_84.jpg"/>" alt="Avatar" style="width:200px" height="200px"></a>
   </div>
   <div class="column">
-  <a href="http://localhost:8080/incredible-Assignment2/profile/">
+  <a href="http://localhost:8080/incredible-Assignment2/akwinder">
   <img src="<spring:url value="/image/selfi_aka_06.jpeg"/>" alt="Avatar" style="width:200px" height="200px" ></a>
     
   </div>
   <div class="column">
-  <a href="http://localhost:8080/incredible-Assignment2/profile/">
+  <a href="http://localhost:8080/incredible-Assignment2/varinder">
   <img src="<spring:url value="/image/selfie_vka_86.jpg"/>" alt="Avatar" style="width:200px" height="200px" ></a>
   
   </div>
    <div class="column">
-  <a href="http://localhost:8080/incredible-Assignment2/profile/">
+  <a href="http://localhost:8080/incredible-Assignment2/harsh">
   <img src="<spring:url value="/image/harash.jpg"/>" alt="Avatar" style="width:200px" height="200px" ></a>
     
   </div>
