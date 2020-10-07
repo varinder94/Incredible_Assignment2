@@ -13,8 +13,8 @@
 
 .column {
   float: right;
-  width: 50.50%;
-  padding: 2px;
+  width: 33.33%;
+  padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -24,38 +24,46 @@
   display: table;
   float:left;
 }
-img {
-  border-radius: 50%;
+.img
+{
+ border : round;
 }
 </style>
 <title>Selfies of Team Members</title>
 </head>
-<body style="background-color:pink;">
-	<h2>Name : Akwinder kaur</h2>
+<body style="background-color:powderblue;">
+	<h1>Varinder kaur</h1>
 	<div class="row">
   <div class="column">
-     <img src="<spring:url value="/image/selfi_aka_06.jpeg"/>" alt="" style="width:300px" height="300px">
+   <img src="<spring:url value="/image/selfie_vka_86.jpg"/>" alt="Avatar" style="width:200px" height="200px" >
   </div>
-  
 </div>
+
+	
+	<form:form method="POST" modelAttribute="varinder_des_vka_86">
 		<table>
 			<tr>
-				<td><label><b>Student Id: 300297906</label></td>
+				<td><label>Team member Name:  Varinder Kaur</label></td>
+			
 				
 			</tr>
 			<tr>
-				<td><label><b>Course Enrolled : PBD-data analyst</label></td>
+				<td><label>Student Id: 300303886 </label></td>
+				
 				
 			</tr>
 			<tr>
-				<td><label><b>Email: kaura95@student.douglascollege.ca</b></label></td>
+				<td><label>Course Enrolled : PBD-data analyst </label></td>
+				
+			</tr>
+			<tr>
+				<td><label>Email: kaurv6@student.douglascollege.ca</label></td>
+				
 			</tr>
 			<tr>
 				<td><label></label></td>
 			</tr>
-			
 		</table>
-		
-	<a href = "http://localhost:8080/incredible-Assignment2/main"><b><i>Back to main page</a>
+	</form:form>
 </body>
 </html>

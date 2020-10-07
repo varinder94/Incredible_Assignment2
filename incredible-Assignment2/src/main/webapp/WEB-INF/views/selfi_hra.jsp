@@ -13,8 +13,8 @@
 
 .column {
   float: right;
-  width: 50.50%;
-  padding: 2px;
+  width: 33.33%;
+  padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -30,25 +30,31 @@ img {
 </style>
 <title>Selfies of Team Members</title>
 </head>
-<body style="background-color:pink;">
-	<h2>Name : Akwinder kaur</h2>
+<body style="background-color:powderblue;">
+	<h1>Harshavardhan Varma Penmetsa</h1>
 	<div class="row">
   <div class="column">
-     <img src="<spring:url value="/image/selfi_aka_06.jpeg"/>" alt="" style="width:300px" height="300px">
+     <img src="<spring:url value="/image/harsha.jpg"/>" alt="Avatar" style="width:400px" height="400px">
   </div>
-  
 </div>
+
+	
+	
 		<table>
 			<tr>
-				<td><label><b>Student Id: 300297906</label></td>
+				<td><label>Team member : Harshavardhan Varma Penmetsa</label></td>
 				
 			</tr>
 			<tr>
-				<td><label><b>Course Enrolled : PBD-data analyst</label></td>
+				<td><label>Student Id: 300310224</label></td>
 				
 			</tr>
 			<tr>
-				<td><label><b>Email: kaura95@student.douglascollege.ca</b></label></td>
+				<td><label>Course Enrolled : PBD-data analyst</label></td>
+				
+			</tr>
+			<tr>
+				<td><label>Email: penmetsah@student.douglascollege.ca</label></td>
 			</tr>
 			<tr>
 				<td><label></label></td>
@@ -56,6 +62,6 @@ img {
 			
 		</table>
 		
-	<a href = "http://localhost:8080/incredible-Assignment2/main"><b><i>Back to main page</a>
+	
 </body>
 </html>
