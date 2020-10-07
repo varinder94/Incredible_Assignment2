@@ -42,32 +42,38 @@ div {text-align: center;}
 <h1></h1>
 	<div class="row">
   <div class="column">
+  <figure>
   <a href="http://localhost:8080/incredible-Assignment2/gaurav">
   <img src="<spring:url value="/image/selfie_gra_84.jpg"/>" alt="Avatar" style="width:200px" height="200px"></a>
+  <figcaption>Gaurav Rana</figcaption>
+    </figure>
   </div>
   <div class="column">
+  <figure>
   <a href="http://localhost:8080/incredible-Assignment2/akwinder">
   <img src="<spring:url value="/image/selfi_aka_06.jpeg"/>" alt="Avatar" style="width:200px" height="200px" ></a>
-    
+     <figcaption>Akwinder Kaur</figcaption>
+    </figure>
   </div>
+ 
   <div class="column">
+  <figure>
   <a href="http://localhost:8080/incredible-Assignment2/varinder">
   <img src="<spring:url value="/image/selfie_vka_86.jpg"/>" alt="Avatar" style="width:200px" height="200px" ></a>
-  
+  <figcaption>Varinder kaur</figcaption>
+    </figure>
   </div>
    <div class="column">
-  <a href="http://localhost:8080/incredible-Assignment2/harsh">
-  <img src="<spring:url value="/image/harash.jpg"/>" alt="Avatar" style="width:200px" height="200px" ></a>
-    
+   <figure>
+  <a href="http://localhost:8080/incredible-Assignment2/harsha">
+  <img src="<spring:url value="/image/harsha.jpg"/>"  alt="Avatar" style="width:200px" height="200px" ></a>
+ 	<figcaption>Harshvardhan varma</figcaption>
+    </figure>
   </div>
 </div>
-<h3>We incredibles are a group of four.<br>
-<span style="padding-left:2em">Starting from the left we have:</span><br>
-<span style="padding-left:4em">Gaurav Singh Rana</span><br>
-<span style="padding-left:4em">Akwinder Kaur</span><br>
-<span style="padding-left:4em">Varinder Kaur</span><br>
-<span style="padding-left:4em">Harshvardhan</span><br>
-    </h3>
+<h4>We incredibles are a group of four.<br>
+
+    </h4>
     <h4> Click on the Photos above to know them better!
     </h4>
 </body>
