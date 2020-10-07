@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.csis3275.Model_Incredible_Asg2.Model_aka_06;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84;
 
 
@@ -44,7 +45,7 @@ public class Controller_incredible_Asg2 {
 	}
 	@RequestMapping(value = "/akwinder")
 	public String newProfileAkwinder(ModelMap model) {
-		Modelincredible_gra_84 selfi_aka_06 = new Modelincredible_gra_84();
+		Model_aka_06 selfi_aka_06 = new Model_aka_06();
 		model.addAttribute("selfi_aka_06", selfi_aka_06);
 		return "selfi_aka_06";
 	}
