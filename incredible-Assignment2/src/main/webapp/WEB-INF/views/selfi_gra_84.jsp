@@ -6,36 +6,62 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Enter the party details</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  float:left;
+}
+img {
+  border-radius: 50%;
+}
+</style>
+<title>Selfies of Team Members</title>
 </head>
 <body style="background-color:powderblue;">
-	<h1>Party</h1>
+	<h1>Gaurav Rana</h1>
+	<div class="row">
+  <div class="column">
+     <img src="<spring:url value="/image/selfie_gra_84.jpg"/>" alt="Avatar" style="width:400px" height="400px">
+  </div>
+</div>
+
 	
-	<img src="<spring:url value="/image/selfie_gra_84.jpg"/>" alt="selfi" width="300" height="300">
 	
-	<form:form method="POST" modelAttribute="selfi_gra_84">
 		<table>
 			<tr>
-				<td><label>First Name</label></td>
-				<td><form:input type="text" path="firstName" id="firstName"/>
-				<form:errors path="firstName" style="color:red" /></td>
+				<td><label>Team member : Gaurav Rana</label></td>
+				
 			</tr>
 			<tr>
-				<td><label>Last Name</label></td>
-				<td><form:input type="text" path="lastName" id="lastName"/> <form:errors
-						path="lastName" style="color:red" /></td>
+				<td><label>Student Id: 3003034884</label></td>
+				
 			</tr>
 			<tr>
-				<td><label>StudentID</label></td>
-				<td><form:input type="number" path="studentID" id="studentID"/>
-							 <form:errors path="studentID" style="color:red" /></td>
+				<td><label>Course Enrolled : PBD-data analyst</label></td>
+				
 			</tr>
 			<tr>
-				<td><label>Email</label></td>
-				<td><form:input type="email" path="email" id="email" value ="ranag2@student.douglascollege.ca"/> <form:errors
-						path="email" style="color:red" /></td>
+				<td><label>Email: ranag2@student.douglascollege.ca</label></td>
 			</tr>
+			<tr>
+				<td><label></label></td>
+			</tr>
+			
 		</table>
-	</form:form>
+		
+	
 </body>
 </html>
