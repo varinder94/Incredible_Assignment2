@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.csis3275.Model_Incredible_Asg2.Model_aka_06;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84;
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
 
 
 @Controller
@@ -51,7 +52,7 @@ public class Controller_incredible_Asg2 {
 	}
 	@RequestMapping(value = "/varinder")
 	public String newProfileVarinder(ModelMap model) {
-		Modelincredible_gra_84 selfi_vka_86 = new Modelincredible_gra_84();
+		Modelincredible_vka_86 selfi_vka_86 = new Modelincredible_vka_86();
 		model.addAttribute("selfi_vka_86", selfi_vka_86);
 		return "selfi_vka_86";
 	}
