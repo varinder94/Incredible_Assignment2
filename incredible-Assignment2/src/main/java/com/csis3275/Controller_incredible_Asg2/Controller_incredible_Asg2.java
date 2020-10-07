@@ -57,7 +57,7 @@ public class Controller_incredible_Asg2 {
 		model.addAttribute("selfi_vka_86", selfi_vka_86);
 		return "selfi_vka_86";
 	}
-	@RequestMapping(value = "/harsh")
+	@RequestMapping(value = "/harsha")
 	public String newProfileHarsh(ModelMap model) {
 		 Modelincredible_hpe_24 selfi_hra = new  Modelincredible_hpe_24();
 		model.addAttribute("selfi_hra", selfi_hra);

@@ -34,7 +34,7 @@ img {
 	<h1>Harshavardhan Varma Penmetsa</h1>
 	<div class="row">
   <div class="column">
-     <img src="<spring:url value="/image/selfie_gra_84.jpg"/>" alt="Avatar" style="width:400px" height="400px">
+     <img src="<spring:url value="/image/harsha.jpg"/>" alt="Avatar" style="width:400px" height="400px">
   </div>
 </div>
 
