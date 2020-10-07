@@ -6,6 +6,8 @@ public class Modelincredible_Asg2 {
 	private int studentID;
 	private String email;
 
+	
+
 	public String getFirstName() {
 		return firstName;
 	}
