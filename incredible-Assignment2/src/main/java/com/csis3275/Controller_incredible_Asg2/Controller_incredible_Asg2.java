@@ -1,9 +1,5 @@
 package com.csis3275.Controller_incredible_Asg2;
 
-
-
-
-
 import java.awt.Image;
 import java.awt.PageAttributes.MediaType;
 import java.awt.image.BufferedImage;
@@ -22,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.csis3275.Model_Incredible_Asg2.Model_aka_06;
-import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84;
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_hpe_24;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
 
