@@ -18,8 +18,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.csis3275.Model_Incredible_Asg2.Model_aka_06;
+
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_Asg2;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84;
+
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84
+
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_hpe_24;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
 
@@ -55,9 +59,15 @@ public class Controller_incredible_Asg2 {
 		return "selfi_vka_86";
 	}
 
+
 	@RequestMapping(value = "/harsha")
 	public String newProfileHarsh(ModelMap model) {
 		Modelincredible_hpe_24 selfi_hra = new Modelincredible_hpe_24();
+
+	@RequestMapping(value = "/harsha")
+	public String newProfileHarsh(ModelMap model) {
+		 Modelincredible_hpe_24 selfi_hra = new  Modelincredible_hpe_24();
+
 		model.addAttribute("selfi_hra", selfi_hra);
 		return "selfi_hra";
 	}
