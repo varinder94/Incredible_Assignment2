@@ -22,6 +22,10 @@ import com.csis3275.Model_Incredible_Asg2.Model_aka_06;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_Asg2;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84;
 
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84
+
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_hpe_24;
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
 
 
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_hpe_24;
@@ -58,7 +62,6 @@ public class Controller_incredible_Asg2 {
 		model.addAttribute("selfi_vka_86", selfi_vka_86);
 		return "selfi_vka_86";
 	}
-
 
 
 
