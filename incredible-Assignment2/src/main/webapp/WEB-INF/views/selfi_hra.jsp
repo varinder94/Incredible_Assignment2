@@ -8,6 +8,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <style>
 * {
+
+
+	box-sizing: border-box;
+}
+
+.column {
+	float: right;
+	width: 33.33%;
+	padding: 5px;
+
+
   box-sizing: border-box;
 }
 
@@ -15,10 +26,26 @@
   float: right;
   width: 33.33%;
   padding: 5px;
+
+
+
+
 }
 
 /* Clearfix (clear floats) */
 .row::after {
+
+
+	content: "";
+	clear: both;
+	display: table;
+	float: left;
+}
+
+img {
+	border-radius: 50%;
+
+
   content: "";
   clear: both;
   display: table;
@@ -26,10 +53,50 @@
 }
 img {
   border-radius: 50%;
+
 }
 </style>
 <title>Selfies of Team Members</title>
 </head>
+
+
+
+<body style="background-color: powderblue;">
+	<h1>Harshavardhan Varma Penmetsa</h1>
+	<div class="row">
+		<div class="column">
+			<img src="<spring:url value="/image/hrasha.jpg"/>" alt="Avatar"
+				style="width: 400px" height="400px">
+		</div>
+	</div>
+
+
+
+	<table>
+		<tr>
+			<td><label>Team member : Harshavardhan Varma Penmetsa</label></td>
+
+		</tr>
+		<tr>
+			<td><label>Student Id: 300310224</label></td>
+
+		</tr>
+		<tr>
+			<td><label>Course Enrolled : PBD-data analyst</label></td>
+
+		</tr>
+		<tr>
+			<td><label>Email: penmetsah@student.douglascollege.ca</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		</tr>
+
+	</table>
+
+
+
+
 <body style="background-color:powderblue;">
 	<h1>Harshavardhan Varma Penmetsa</h1>
 	<div class="row">
@@ -63,5 +130,7 @@ img {
 		</table>
 		
 	
+
+
 </body>
 </html>
