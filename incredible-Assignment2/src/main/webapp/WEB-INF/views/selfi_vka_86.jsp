@@ -24,8 +24,9 @@
 	display: table;
 	float: left;
 }
+
 img {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 </style>
 <title>Selfies of Team Members</title>
@@ -60,8 +61,12 @@ img {
 			<td>Email: kaurv6@student.douglascollege.ca</td>
 
 		</tr>
+		<tr>
+			<td>Address : surry, BC, Vancouver</td>
+		</tr>
 
 	</table>
-<a href = "http://localhost:8080/incredible-Assignment2/main"><b><i>Back to main page</a>
+	<a href="http://localhost:8080/incredible-Assignment2/main"><b><i>Back
+				to main page</a>
 </body>
 </html>
