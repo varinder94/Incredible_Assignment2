@@ -61,7 +61,7 @@ img {
 			</tr>
 			
 		</table>
-		
+		<a href = "http://localhost:8080/incredible-Assignment2/main"><b><i>Back to main page</a>
 	
 </body>
 </html>
