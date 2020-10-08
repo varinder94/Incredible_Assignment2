@@ -27,6 +27,10 @@ import com.csis3275.Model_Incredible_Asg2.Modelincredible_gra_84
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_hpe_24;
 import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
 
+
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_hpe_24;
+import com.csis3275.Model_Incredible_Asg2.Modelincredible_vka_86;
+
 @Controller
 //@RequestMapping("/profile")
 public class Controller_incredible_Asg2 {
@@ -60,9 +64,6 @@ public class Controller_incredible_Asg2 {
 	}
 
 
-	@RequestMapping(value = "/harsha")
-	public String newProfileHarsh(ModelMap model) {
-		Modelincredible_hpe_24 selfi_hra = new Modelincredible_hpe_24();
 
 	@RequestMapping(value = "/harsha")
 	public String newProfileHarsh(ModelMap model) {
