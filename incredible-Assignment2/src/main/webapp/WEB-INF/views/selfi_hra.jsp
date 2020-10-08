@@ -13,8 +13,8 @@
 
 .column {
 	float: right;
-	width: 50.33%;
-	padding: 3px;
+	width: 33.33%;
+	padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -24,18 +24,19 @@
 	display: table;
 	float: left;
 }
+
 img {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 </style>
 <title>Selfies of Team Members</title>
 </head>
-<body style="background-color: pink;">
-	<h1>Varinder kaur</h1>
+<body style="background-color: powderblue;">
+	<h1>Harshavardhan Varma Penmetsa</h1>
 	<div class="row">
 		<div class="column">
-			<img src="<spring:url value="/image/selfie_vka_86.jpg"/>"
-				alt="Avatar" style="width: 200px" height="200px">
+			<img src="<spring:url value="/image/hrasha.jpg"/>" alt="Avatar"
+				style="width: 400px" height="400px">
 		</div>
 	</div>
 
@@ -43,25 +44,26 @@ img {
 
 	<table>
 		<tr>
-			<td>Team member Name: Varinder Kaur</td>
-
-
-		</tr>
-		<tr>
-			<td>Student Id: 300303886</td>
-
+			<td><label>Team member : Harshavardhan Varma Penmetsa</label></td>
 
 		</tr>
 		<tr>
-			<td>Course Enrolled : PBD-data analyst</td>
+			<td><label>Student Id: 300310224</label></td>
 
 		</tr>
 		<tr>
-			<td>Email: kaurv6@student.douglascollege.ca</td>
+			<td><label>Course Enrolled : PBD-data analyst</label></td>
 
+		</tr>
+		<tr>
+			<td><label>Email: penmetsah@student.douglascollege.ca</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
 		</tr>
 
 	</table>
-<a href = "http://localhost:8080/incredible-Assignment2/main"><b><i>Back to main page</a>
+
+
 </body>
 </html>

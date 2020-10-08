@@ -36,6 +36,7 @@ img {
   <div class="column">
      <img src="<spring:url value="/image/selfi_aka_06.jpeg"/>" alt="" style="width:300px" height="300px">
   </div>
+  
 </div>
 		<table>
 			<tr>
@@ -55,6 +56,6 @@ img {
 			
 		</table>
 		
-	
+	<a href = "http://localhost:8080/incredible-Assignment2/main"><b><i>Back to main page</a>
 </body>
 </html>
